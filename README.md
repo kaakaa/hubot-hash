@@ -1,6 +1,7 @@
 # hubot-hash
 
-collect hashtags
+Collect message hashtags.
+Require starting redis-server at localhost:6379.
 
 See [`src/hash.coffee`](src/hash.coffee) for full documentation.
 
@@ -21,6 +22,13 @@ Then add **hubot-hash** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> Hello Yesterday! #team
+hubot>> learn by heart
+user1>> Goodbye Yesterday! #team
+hubot>> learn by heart
+
+user1>> @hubot REPORT_FROM_YESTERDAY
+hubot>> Hello Yesterday!
+hubot>> Goodbye Yesterday!
+hubot>> CLEAR_MESSAGE
 ```
