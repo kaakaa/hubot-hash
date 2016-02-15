@@ -9,7 +9,7 @@ See [`src/hash.coffee`](src/hash.coffee) for full documentation.
 
 In hubot project repo, run:
 
-`npm install hubot-hash --save`
+`npm install https://github.com/kaakaa/hubot-hash.git --save`
 
 Then add **hubot-hash** to your `external-scripts.json`:
 
