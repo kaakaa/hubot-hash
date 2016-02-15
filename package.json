@@ -1,19 +1,19 @@
 {
   "name": "hubot-hash",
   "description": "collect hashtags",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "kaakaa <stooner.hoe@gmail.com>",
   "license": "MIT",
 
-  "keywords": "hubot, hubot-scripts",
+  "keywords": "hubot, hubot-scripts, hashtags",
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-hash.git"
+    "url": "git://github.com/kaakaa/hubot-hash.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-hash/issues"
+    "url": "https://github.com/kaakaa/hubot-hash/issues"
   },
 
   "dependencies": {
